@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#loginButton, #logoutButton {
+    margin-top: 20px;
+}
+
+#loginForm {
+    display: none;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #f0cf15;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
